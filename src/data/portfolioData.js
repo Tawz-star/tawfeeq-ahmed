@@ -1,5 +1,5 @@
 export const PERSONAL_INFO = {
-  fullName: "R. Tawfeeq Ahmad",
+  fullName: "R. Tawfeeq Ahmed",
   shortName: "Tawfeeq",
   headline: "B.COM FINANCIAL TECHNOLOGY STUDENT · ASPIRING WEB DEVELOPER",
   title: "Building Ideas Into Digital Experiences.",
@@ -12,7 +12,7 @@ export const PERSONAL_INFO = {
   linkedin: "https://www.linkedin.com/in/tawfeeq-ahmed-24269b377",
   github: "https://github.com/Tawz-star",
   bio: "I'm a second-year B.Com Financial Technology student at Bishop Heber College, passionate about coding, web development, digital finance, and creating meaningful digital experiences. I combine my growing technical skills with communication, leadership, and event management experience.",
-  aboutFull: "I am R. Tawfeeq Ahmad, a second-year B.Com Financial Technology student at Bishop Heber College, Tiruchirappalli. My interests lie at the intersection of technology, finance, and digital innovation. I have foundational knowledge of Python, HTML, and Java, and I am currently strengthening my CSS skills while exploring web development. Alongside my technical learning, I have developed communication, teamwork, coordination, and leadership skills through student association and finance club responsibilities. I believe in continuous learning, practical experimentation, and turning ideas into useful digital experiences."
+  aboutFull: "I am R. Tawfeeq Ahmed, a second-year B.Com Financial Technology student at Bishop Heber College, Tiruchirappalli. My interests lie at the intersection of technology, finance, and digital innovation. I have foundational knowledge of Python, HTML, and Java, and I am currently strengthening my CSS skills while exploring web development. Alongside my technical learning, I have developed communication, teamwork, coordination, and leadership skills through student association and finance club responsibilities. I believe in continuous learning, practical experimentation, and turning ideas into useful digital experiences."
 };
 
 export const HIGHLIGHT_CARDS = [
@@ -516,7 +516,7 @@ export const VENTURES_SECTION = {
 
 export const TERMINAL_BOOT_LOGS = [
   "initializing_portfolio...",
-  "identity: R. Tawfeeq Ahmad",
+  "identity: R. Tawfeeq Ahmed",
   "focus: Web Development & FinTech Entrepreneurship",
   "background: Financial Technology (Bishop Heber College)",
   "ventures: SWOPLT Growth Partner · LoopStep Shoes",

@@ -68,7 +68,7 @@ export default function Navbar({ onOpenTerminal }) {
               </div>
               <div className="flex flex-col">
                 <span className="font-extrabold tracking-tight group-hover:text-cyan-400 transition-colors text-sm sm:text-base">
-                  R. Tawfeeq Ahmad
+                  R. Tawfeeq Ahmed
                 </span>
                 <span className="text-[10px] font-mono text-slate-400 tracking-wider flex items-center gap-1.5">
                   <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse" />

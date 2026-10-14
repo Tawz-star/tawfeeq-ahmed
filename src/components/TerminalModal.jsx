@@ -154,7 +154,7 @@ Current Focus: Strengthening CSS, exploring modern React interfaces, digital mar
             type: 'matrix',
             text: `01000110 01001001 01001110 01010100 01000101 01000011 01001000
 >> Entering digital stream...
->> Welcome to R. Tawfeeq Ahmad's developer environment.`
+>> Welcome to R. Tawfeeq Ahmed's developer environment.`
           }
         ]);
         break;

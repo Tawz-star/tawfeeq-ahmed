@@ -231,7 +231,7 @@ export default function Hero({ onOpenTerminal }) {
                 <div className="relative aspect-[3/4] rounded-xl overflow-hidden bg-slate-900 border border-white/5">
                   <img
                     src={profileImg}
-                    alt="R. Tawfeeq Ahmad"
+                    alt="R. Tawfeeq Ahmed"
                     onError={() => {
                       if (!imageError) {
                         setImageError(true);
@@ -271,7 +271,7 @@ export default function Hero({ onOpenTerminal }) {
                     <div className="flex items-center justify-between">
                       <div>
                         <h3 className="text-white font-bold text-sm tracking-tight flex items-center gap-1.5">
-                          R. Tawfeeq Ahmad
+                          R. Tawfeeq Ahmed
                           <ShieldCheck className="w-4 h-4 text-cyan-400" />
                         </h3>
                         <p className="text-[11px] text-slate-400 font-mono">

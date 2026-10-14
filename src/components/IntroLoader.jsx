@@ -82,7 +82,7 @@ export default function IntroLoader({ onComplete }) {
             {/* Profile Identification */}
             <div className="mb-6 space-y-1">
               <h2 className="text-xl font-bold font-display text-white tracking-wide flex items-center gap-2">
-                R. Tawfeeq Ahmad
+                R. Tawfeeq Ahmed
                 <ShieldCheck className="w-4 h-4 text-cyan-400" />
               </h2>
               <p className="text-xs text-slate-400 font-mono">

@@ -1,4 +1,4 @@
-# Deployment Guide: R. Tawfeeq Ahmad Portfolio
+# Deployment Guide: R. Tawfeeq Ahmed Portfolio
 
 This document outlines the quick step-by-step procedure to push this project to your GitHub account (**@Tawz-star**) and deploy it live on **Vercel**.
 

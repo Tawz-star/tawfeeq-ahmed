@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { ArrowDown, ArrowUpRight, Terminal, Mail, Sparkles, ShieldCheck, Code, Cpu, ExternalLink, Camera } from 'lucide-react';
+import { ArrowDown, ArrowUpRight, Terminal, Mail, Sparkles, ShieldCheck, Code, Cpu, ExternalLink, Camera, Rocket } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from './SocialIcons';
 import { PERSONAL_INFO } from '../data/portfolioData';
 
@@ -168,6 +168,15 @@ export default function Hero({ onOpenTerminal }) {
               >
                 <span>Let's Connect</span>
                 <ArrowUpRight className="w-4 h-4 text-cyan-400" />
+              </a>
+
+              {/* Ventures Hero CTA */}
+              <a
+                href="#ventures"
+                className="px-5 py-3.5 rounded-xl font-semibold text-xs font-mono glass-panel border border-emerald-500/30 text-emerald-300 hover:text-white hover:border-emerald-400 hover:bg-emerald-500/10 transition-all active:scale-95 flex items-center gap-2"
+              >
+                <Rocket className="w-3.5 h-3.5 text-emerald-400" />
+                <span>Explore My Ventures ↓</span>
               </a>
 
               {/* Social Links */}

@@ -195,19 +195,30 @@ export default function Projects() {
                 </div>
 
                 <div className="flex items-center justify-between pt-2">
-                  <a
-                    href={PERSONAL_INFO.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 text-xs font-mono text-cyan-400 hover:text-cyan-300 underline decoration-dotted"
-                  >
-                    <GithubIcon className="w-3.5 h-3.5" />
-                    <span>View Repository on GitHub</span>
-                    <ArrowUpRight className="w-3.5 h-3.5" />
-                  </a>
+                  {proj.id.includes('venture') ? (
+                    <a
+                      href="#ventures"
+                      className="inline-flex items-center gap-1.5 text-xs font-mono text-cyan-400 hover:text-cyan-300 font-bold"
+                    >
+                      <Sparkles className="w-3.5 h-3.5 text-cyan-400" />
+                      <span>Explore Pitch &amp; Case Study</span>
+                      <ArrowUpRight className="w-3.5 h-3.5" />
+                    </a>
+                  ) : (
+                    <a
+                      href={PERSONAL_INFO.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 text-xs font-mono text-cyan-400 hover:text-cyan-300 underline decoration-dotted"
+                    >
+                      <GithubIcon className="w-3.5 h-3.5" />
+                      <span>View Repository on GitHub</span>
+                      <ArrowUpRight className="w-3.5 h-3.5" />
+                    </a>
+                  )}
 
                   <span className="text-[10px] font-mono text-slate-400">
-                    Concept Stage
+                    {proj.badge.includes('Venture') ? 'Startup Case Study' : 'Concept Stage'}
                   </span>
                 </div>
               </div>

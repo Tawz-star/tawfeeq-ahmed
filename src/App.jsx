@@ -7,6 +7,7 @@ import Education from './components/Education';
 import Experience from './components/Experience';
 import Certifications from './components/Certifications';
 import Projects from './components/Projects';
+import Ventures from './components/Ventures';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import TerminalModal from './components/TerminalModal';
@@ -47,6 +48,7 @@ export default function App() {
         <Experience />
         <Certifications />
         <Projects />
+        <Ventures />
         <Contact />
       </main>
 

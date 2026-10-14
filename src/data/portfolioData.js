@@ -218,13 +218,47 @@ export const PROJECTS_DATA = [
     description: "A personal portfolio designed to present my technical learning journey, financial technology background, leadership experience, and interest in web development. Built with a sleek, dark cyber-fintech aesthetic.",
     technologies: ["React", "Vite", "Tailwind CSS", "Framer Motion", "JavaScript"],
     githubUrl: "https://github.com/Tawz-star",
-    liveUrl: "#",
+    liveUrl: "https://tawfeeq-ahmed.vercel.app",
     featured: true,
     highlights: [
       "Interactive connected FinTech nodes canvas network",
       "Functional interactive developer terminal panel with real command responses",
       "Curated dark mode design system inspired by high-end financial platforms",
       "Fully responsive across smartphones, tablets, and desktop displays"
+    ]
+  },
+  {
+    id: "swoplt-venture",
+    title: "SwopLT — Growth Partner Platform",
+    badge: "Entrepreneurial Venture · Live",
+    category: "SME Strategy & FinTech",
+    description: "A digital business diagnostic and growth acceleration platform delivering sector-specific audits, SWOT assessments, and direct expert mentorship across 15+ industries.",
+    technologies: ["React", "TypeScript", "Tailwind CSS", "Lovable", "Strategy Frameworks"],
+    githubUrl: "https://github.com/Tawz-star",
+    liveUrl: "https://swoplt-growth-partner.lovable.app/",
+    featured: false,
+    highlights: [
+      "25 critical skills evaluated per sector with actionable insights",
+      "Growth tracking dashboard monitoring business KPIs and skill improvement",
+      "Live 1-on-1 video call integration with verified industry mentors",
+      "Specialized roadmaps for food, clothing, real estate, and agribusiness"
+    ]
+  },
+  {
+    id: "loopstep-venture",
+    title: "LoopStep — Twist-Lock Modular Soles",
+    badge: "Entrepreneurial Venture · Concept",
+    category: "Circular Economy & Hardware",
+    description: "An innovative circular footwear concept with mechanical twist-lock soles designed to replace worn treads instead of discarding the entire shoe.",
+    technologies: ["Modular Design", "3D Foot Scan", "UN SDGs", "Lovable", "Prototyping"],
+    githubUrl: "https://github.com/Tawz-star",
+    liveUrl: "https://loop-step-shoes.lovable.app/",
+    featured: false,
+    highlights: [
+      "Mechanical twist-lock coupling ring adapted from ski bindings (swap in <10s)",
+      "Standard (₹200), Sports (₹500), and Trail (₹700) sole editions",
+      "Universal ₹50 adapter bonded to existing shoes from any brand",
+      "Aligned with UN Sustainable Development Goals: SDG 12, 13, and 8"
     ]
   },
   {
@@ -261,11 +295,231 @@ export const PROJECTS_DATA = [
   }
 ];
 
+export const VENTURES_SECTION = {
+  eyebrow: "BEYOND CODE — INTO ENTREPRENEURSHIP",
+  heading: "Building Ideas Into Business Possibilities.",
+  description: "My entrepreneurial journey combines digital innovation, business thinking, sustainability, and problem-solving. These two projects represent different approaches to creating value: helping businesses explore growth opportunities and rethinking how footwear can be designed for a more sustainable future.",
+  tagline: "Two Ideas. Two Problems. Two Digital Solutions.",
+  ventures: [
+    {
+      id: "swoplt",
+      name: "SWOPLT GROWTH PARTNER",
+      number: "01",
+      tag: "Business Intelligence & Startup Accelerator",
+      liveUrl: "https://swoplt-growth-partner.lovable.app/",
+      status: "Live Prototype",
+      statusColor: "cyan",
+      oneLiner: "A digital business growth accelerator and diagnostic platform providing sector-specific SWOT insights, KPI tracking, and 1-on-1 expert mentor calls.",
+      categories: ["SME Advisory", "Growth Diagnostic", "Mentor Network", "FinTech Strategy"],
+      previewImg: "/swoplt-preview.png",
+      ogImg: "/swoplt-og.png",
+      accent: "cyan",
+      themeColor: "#00F0FF",
+      themeBg: "rgba(0, 240, 255, 0.08)",
+      borderColor: "rgba(0, 240, 255, 0.3)",
+      stages: [
+        {
+          stageNum: "01",
+          stageTitle: "Discover the Problem",
+          subtitle: "Why early-stage startups and small businesses stall",
+          icon: "AlertCircle",
+          summary: "Small businesses and first-time founders frequently encounter roadblocks due to unstructured decision-making, fragmented marketing advice, and lack of affordable diagnostic tools.",
+          details: [
+            "Lack of Tailored Guidance: Generic advice fails to account for sector-specific dynamics (e.g. food business margins vs. apparel logistics vs. EdTech customer acquisition).",
+            "Expensive Consulting Barriers: Traditional agency retainers or management consultants are priced far beyond the budgets of micro-enterprises and student founders.",
+            "Absence of Continuous Tracking: Founders rarely have intuitive dashboards to measure skill improvement, financial metrics, and strategic pivot milestones over time."
+          ]
+        },
+        {
+          stageNum: "02",
+          stageTitle: "Understand the Idea",
+          subtitle: "The SWOT + Growth Tracking framework",
+          icon: "Lightbulb",
+          summary: "SWOPLT functions as an accessible digital 'Growth Partner' combining structured SWOT diagnostics with continuous mentorship and progress tracking.",
+          details: [
+            "Diagnostic Core: Evaluates 25 critical business capabilities per sector to generate actionable SWOT insights.",
+            "Bridging Theory and Action: Translates academic commerce principles into interactive digital roadmaps for founders in India and developing economies.",
+            "Democratized Mentorship: Facilitates affordable, on-demand video consultations with vetted industry practitioners."
+          ]
+        },
+        {
+          stageNum: "03",
+          stageTitle: "Explore the Solution",
+          subtitle: "Interactive platform features and user workflow",
+          icon: "Compass",
+          summary: "A 4-pillar system designed to diagnose, guide, track, and support business operators through every development phase.",
+          workflow: [
+            { step: "01", title: "Sector Assessment", desc: "Founder inputs business details and financials into a specialized evaluation framework." },
+            { step: "02", title: "SWOT Insights", desc: "Automated engine maps strengths, weaknesses, expansion avenues, and operational risks." },
+            { step: "03", title: "Growth Dashboard", desc: "Live visual tracking of business KPIs, revenue milestones, and team skill progression." },
+            { step: "04", title: "1-on-1 Expert Calls", desc: "Direct video sessions for onboarding, mid-program check-ins, and capstone reviews." }
+          ]
+        },
+        {
+          stageNum: "04",
+          stageTitle: "Examine the Business Concept",
+          subtitle: "Monetization hypotheses and multi-tier structure",
+          icon: "Briefcase",
+          summary: "The platform tests an accessible tiered engagement model targeting both aspiring student founders and operating SMEs.",
+          details: [
+            "Entry Diagnostic Tier: Low-friction introductory assessments (listed from ₹10) to make structured audits accessible to any entrepreneur.",
+            "Curated Course Modules: Practical industry-specific training tracks covering food businesses, clothing brands, real estate, and agribusiness.",
+            "Premium Mentor Sessions: Tiered fees for scheduled 1:1 expert consultations, quarterly syncs, and investor pitch preparation.",
+            "Transparency Note: These pricing structures represent concept listings on the live website and remain subject to commercial validation."
+          ]
+        },
+        {
+          stageNum: "05",
+          stageTitle: "Consider the Potential Impact",
+          subtitle: "Empowering regional enterprise & student founders",
+          icon: "TrendingUp",
+          summary: "By pairing quantitative business metrics with actionable mentorship, SWOPLT demonstrates how financial technology principles can support micro-entrepreneurship.",
+          details: [
+            "Demystifying Financial Metrics: Empowers non-finance founders to understand cash flows, unit economics, and risk management.",
+            "Regional Startup Ecosystem: Provides accessible guidance tailored to Indian commercial realities and emerging local markets.",
+            "Continuous Improvement: Encourages a culture of tracking, reflecting, and iterating rather than operating on guesswork."
+          ]
+        },
+        {
+          stageNum: "06",
+          stageTitle: "Visit the Live Project",
+          subtitle: "Experience the interactive prototype",
+          icon: "ExternalLink",
+          summary: "Explore the live SWOPLT platform interface, review the assessment flows, and inspect the sector roadmap modules.",
+          liveUrl: "https://swoplt-growth-partner.lovable.app/",
+          ctaText: "Launch SWOPLT Growth Partner"
+        }
+      ]
+    },
+    {
+      id: "loopstep",
+      name: "LOOPSTEP SHOES",
+      number: "02",
+      tag: "Circular Economy & Modular Footwear Design",
+      liveUrl: "https://loop-step-shoes.lovable.app/",
+      status: "Concept Prototype",
+      statusColor: "emerald",
+      oneLiner: "A twist-lock modular sole system that decouples worn treads from durable shoe uppers — swap your sole in under 10 seconds.",
+      categories: ["Circular Economy", "Modular Hardware", "UN SDGs", "Right to Repair"],
+      previewImg: "/loopstep-hero.jpg",
+      ogImg: "/loopstep-og.png",
+      logoImg: "/loopstep-logo.png",
+      accent: "emerald",
+      themeColor: "#10B981",
+      themeBg: "rgba(16, 185, 129, 0.08)",
+      borderColor: "rgba(16, 185, 129, 0.3)",
+      headline: "Don't Replace the Shoe. Replace the Sole.",
+      stats: [
+        { label: "Sole Swap Time", value: "<10 s" },
+        { label: "Replacement Soles From", value: "₹200" },
+        { label: "Spare Sole Donation Ratio", value: "1 : 1" }
+      ],
+      stages: [
+        {
+          stageNum: "01",
+          stageTitle: "Discover the Problem",
+          subtitle: "The footwear industry's built-in obsolescence",
+          icon: "AlertCircle",
+          summary: "Footwear outsoles wear down significantly faster than shoe uppers. Yet today's consumers are forced to discard the entire pair.",
+          comparison: {
+            traditional: {
+              title: "Traditional Footwear Approach",
+              desc: "When the rubber tread wears thin, the entire shoe is thrown into the landfill, wasting the perfectly usable upper, laces, and padding."
+            },
+            loopstep: {
+              title: "The LoopStep Approach",
+              desc: "Keep the comfortable upper you already broke in. Decouple and replace only the worn tread for a fraction of the cost."
+            }
+          }
+        },
+        {
+          stageNum: "02",
+          stageTitle: "Understand the Idea",
+          subtitle: "“Don't Replace the Shoe. Replace the Sole.”",
+          icon: "Lightbulb",
+          summary: "LoopStep applies mechanical engineering principles — inspired by ski bindings and bike cleats — to create a tool-free modular sole coupling.",
+          details: [
+            "Decoupled Architecture: Separates the long-lasting shoe upper (recycled ocean plastic and natural rubber) from the high-wear outsole.",
+            "Tool-Free Mechanics: No electronics, batteries, or specialized equipment required.",
+            "Concept Status: Presented as an innovative physical-digital product concept requiring future rigorous mechanical prototyping and durability testing."
+          ]
+        },
+        {
+          stageNum: "03",
+          stageTitle: "Explore the Solution",
+          subtitle: "The Twist · Lift · Click mechanism",
+          icon: "Repeat",
+          summary: "Swap worn soles in under 10 seconds with a mechanical twist-lock coupling ring moulded into the midsole.",
+          mechanismSteps: [
+            { step: "01", title: "Twist", desc: "Rotate the sole 45 degrees counter-clockwise to disengage the reinforced coupling ring." },
+            { step: "02", title: "Lift", desc: "Easily detach the worn or terrain-specific tread from the shoe midsole." },
+            { step: "03", title: "Click", desc: "Align the fresh replacement sole and rotate until a tactile click confirms the lock." }
+          ]
+        },
+        {
+          stageNum: "04",
+          stageTitle: "Examine the Business Concept",
+          subtitle: "Product editions, pricing, and universal retrofit adapter",
+          icon: "Package",
+          summary: "The website presents a clear product lineup with distinct thicknesses, compounds, and a universal adapter.",
+          editions: [
+            {
+              name: "Standard Edition",
+              thickness: "8 mm",
+              price: "₹200",
+              use: "Everyday city walking · Light, quiet, cushioned",
+              materials: ["EVA Foam", "Natural Rubber"]
+            },
+            {
+              name: "Sports Edition",
+              thickness: "12 mm",
+              price: "₹500",
+              use: "Responsive running & gym work with high rebound layer",
+              materials: ["High-Density EVA", "TPU Cushion Layer", "Carbon Rubber Outsole"]
+            },
+            {
+              name: "Trail Edition",
+              thickness: "15 mm",
+              price: "₹700",
+              use: "Deep rugged lugs, rock plate protection for broken ground",
+              materials: ["High-Grip Rubber", "Reinforced TPU", "Rock Plate Protection"]
+            }
+          ],
+          adapterNote: "Universal Compatibility Concept: For other shoe brands, the site proposes the ₹50 LoopStep Adapter that bonds to existing soles using industrial adhesive."
+        },
+        {
+          stageNum: "05",
+          stageTitle: "Consider the Potential Impact",
+          subtitle: "Aligned with UN Sustainable Development Goals",
+          icon: "Globe",
+          summary: "LoopStep integrates circular economy principles and community repair models into its core brand proposition.",
+          sdgs: [
+            { code: "SDG 12", title: "Responsible Consumption & Production", desc: "Dramatically reduces material waste by replacing only the 20% of the shoe that actually wears out." },
+            { code: "SDG 13", title: "Climate Action", desc: "Decreases manufacturing footprint and shipping weight associated with full-shoe replacement." },
+            { code: "SDG 8", title: "Decent Work & Economic Growth", desc: "Proposes a 1-for-1 donation model funding spare soles for shoe-repair micro-enterprises in underserved communities." }
+          ],
+          personalization: "Product Personalization Concept: Features a 3D foot-scanning concept using smartphone cameras to capture length, breadth, and arch for customized sole geometry."
+        },
+        {
+          stageNum: "06",
+          stageTitle: "Visit the Live Project",
+          subtitle: "Explore the live concept customizer",
+          icon: "ExternalLink",
+          summary: "Interact with the live LoopStep website, explore the sole customizer, and review the adapter engineering specifications.",
+          liveUrl: "https://loop-step-shoes.lovable.app/",
+          ctaText: "Launch LoopStep Shoes"
+        }
+      ]
+    }
+  ]
+};
+
 export const TERMINAL_BOOT_LOGS = [
   "initializing_portfolio...",
   "identity: R. Tawfeeq Ahmad",
-  "focus: Web Development",
-  "background: Financial Technology",
-  "status: Learning and Building",
+  "focus: Web Development & FinTech Entrepreneurship",
+  "background: Financial Technology (Bishop Heber College)",
+  "ventures: SWOPLT Growth Partner · LoopStep Shoes",
+  "status: Learning, Building, and Scaling",
   "system_status: Ready to Grow"
 ];
